@@ -1,4 +1,4 @@
-package com.example.servlet.web;
+package com.example.servlet.web.servlet;
 
 import com.example.servlet.domain.member.MemberRepository;
 
