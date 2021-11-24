@@ -1,8 +1,8 @@
-package com.example.servlet.web.frontcontoller.v1;
+package com.example.servlet.web.frontcontroller.v1;
 
-import com.example.servlet.web.frontcontoller.v1.controller.MemberFormController;
-import com.example.servlet.web.frontcontoller.v1.controller.MemberListController;
-import com.example.servlet.web.frontcontoller.v1.controller.MemberSaveController;
+import com.example.servlet.web.frontcontroller.v1.controller.MemberFormController;
+import com.example.servlet.web.frontcontroller.v1.controller.MemberListController;
+import com.example.servlet.web.frontcontroller.v1.controller.MemberSaveController;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -36,6 +36,5 @@ public class FrontControllerServlet extends HttpServlet {
             return;
         }
         controller.process(request, response);
-
     }
 }

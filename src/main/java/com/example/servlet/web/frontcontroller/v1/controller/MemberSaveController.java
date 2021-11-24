@@ -1,8 +1,8 @@
-package com.example.servlet.web.frontcontoller.v1.controller;
+package com.example.servlet.web.frontcontroller.v1.controller;
 
 import com.example.servlet.domain.member.Member;
 import com.example.servlet.domain.member.MemberRepository;
-import com.example.servlet.web.frontcontoller.v1.Controller;
+import com.example.servlet.web.frontcontroller.v1.Controller;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
